@@ -1,0 +1,64 @@
+Python 3.10.6 (tags/v3.10.6:9c7b4bd, Aug  1 2022, 21:53:49) [MSC v.1932 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+print("hello")
+hello
+
+
+ floor
+
+ 2**3
+8
+ 4**.5
+2.0
+
+(2*2)+4/2
+6.0
+
+ redeclearation is posible
+in python
+ String
+
+\n--is used for writhing next word from next line
+
+#git commands----
+or create a new repository on the command line
+echo "# my-1st-project" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/diksha582/my-1st-project.git
+git push -u origin main
+…or push an existing repository from the command line
+git remote add origin https://github.com/diksha582/my-1st-project.git
+git branch -M main
+git push -u origin main
+
+
+
+
+
+
+    
+num1 = eval(input("Enter 1st no.:"))
+num2 = eval(input("Enter 2nd no.:"))
+op = input("Enter the operator sign(+,-,*,/): ")
+if  op == "+":
+    num1 = num1 + num2
+    print(num1)
+elif op == "-":
+    num1 = num1 - num2
+    print(num1)
+elif op == "*":
+    num1 = num1 * num2
+    print(num1)
+elif op == "/":
+    num1 = num1 / num2
+    print(num1)
+else:
+    print("invalid operator")
+
+repeat = input("Do you want to continue or not (Y/N):")
+
+
+    

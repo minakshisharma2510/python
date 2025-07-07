@@ -1,0 +1,18 @@
+tuples
+
+Q1) 21+ "gems" is interview type questions
+floor division
+
+Q2) difference between list and tuples
+
+
+
+{ 
+    exercise4
+    ## 9 - Implement a traffic light simulator (Red, Yellow, Green).
+
+
+## 10 - Check whether a number is prime using conditional statements.
+
+
+}
