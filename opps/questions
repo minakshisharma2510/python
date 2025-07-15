@@ -1,0 +1,27 @@
+Single Inheritance Programs:
+
+1)
+
+Animal is the base class with a constructor _init_ and a method speak.
+Dog is the derived class that inherits from the Animal class using the syntax class Dog(Animal):.
+The Dog class has its own implementation of the speak method, which overrides the method in the base class.
+An instance of the Dog class, named Buddy, is created.
+When calling the speak method on the dog_instance, it invokes the overridden method in the Dog class.
+
+2)
+
+Create Person as a base class and student as derived class, Student has id and name as parameter, and student has course and grade, call all the details of students.
+
+3)
+
+Problem:
+Design a class Product with attributes name, price.
+Create a class DiscountedProduct that inherits from Product and adds a method to calculate price after discount.
+
+Tasks:
+
+Accept a discount percentage as input.
+
+Calculate and return the final price after discount.
+
+Print a bill showing original and discounted price.

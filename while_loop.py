@@ -148,22 +148,76 @@
     
     
     
-# Taking two numbers as input from the user
-a, b = map(int, input("Enter two numbers separated by a space: ").split())
+# # Taking two numbers as input from the user
+# a, b = map(int, input("Enter two numbers separated by a space: ").split())
 
-# Checking if a is even, if not, increment it to the next even number
-if a % 2 != 0:
-    a += 1
+# # Checking if a is even, if not, increment it to the next even number
+# if a % 2 != 0:
+#     a += 1
 
-# Printing even numbers between a and b (inclusive)
-if a <= b:
-    while a <= b:
-        print(a, end=", ")
-        a += 2
-else:
-    print("The first number should be less than or equal to the second number.")
-
-
+# # Printing even numbers between a and b (inclusive)
+# if a <= b:
+#     while a <= b:
+#         print(a, end=", ")
+#         a += 2
+# else:
+#     print("The first number should be less than or equal to the second number.")
 
 
 
+
+
+# user_input = input("Enter your input: ")
+# for character in user_input:
+#     if character in ( "A","a", "E","e", "I", "i", "O","o","U","u"):
+#       print(character, "is a vowel")
+#     else:
+#         print(character, "is a consonent")
+
+
+
+# user_input = input("Enter your input: ")
+# i = 0
+# while i < len(user_input):
+#     character = user_input[i]
+#     if character not in ( "A","a", "E","e", "I", "i", "O","o","U","u"):
+#       print("")
+#     else:
+#         print(character, "is a consonent")
+# i+=1
+
+
+
+# user_input = input("Enter your input: ")
+# i = 0
+# consonant_count = 0
+# while i < len(user_input):
+#     character = user_input[i]
+    
+#     if character.isalpha(): 
+#         if character.lower() not in ("a", "e", "i", "o", "u"): 
+#             consonant_count += 1
+#     i += 1
+# print("Total number of consonants:", consonant_count)
+
+
+
+
+# user_input = input("Enter your input: ")
+# i = 0
+# vowels = ["a", "e", "i", "o", "u" ]
+# consonant_count = 0
+# while i < len(user_input):
+#     character = user_input[i]
+    
+#     if character.isalpha() and character.lower() not in vowels:
+#         # if character.lower() not in ("a", "e", "i", "o", "u"): 
+#             consonant_count += 1
+#     i += 1
+# print("Total number of consonants:", consonant_count)
+# print(len(user))
+
+
+
+a = "mom"
+i = 1

@@ -13,5 +13,14 @@
 # print('Magnitude of 3 - 4j is:', abs(complex))
 
 
+text1 = '√ represents square root'
+print(ascii(text1))
 
- 
+text2 = 'Thör is coming'
+print(ascii(text2))
+
+
+number = 2
+print('The binary equivalent of 15 is', bin(number))
+
+
